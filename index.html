@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Confirmit Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.scss" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <a class="nav__item nav__logo" href="/"><img src="Logo.png" alt="Confirmit"/></a>
+        <ul class="nav__item menu">
+          <li class="menu__item">
+            <a class="menu__link" href="/">Home</a>
+          </li>
+          <li class="menu__item menu__item--has-children">
+            <a class="menu__link" href="/"
+              >Service
+              <span class="dropdown-icon"></span>
+            </a>
+            <ul class="menu__sub-menu">
+              <li class="menu__item">
+                <a class="menu__link" href="/">ads</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="/">ads</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="utils">
+        <h2>
+          Utils
+        </h2>
+        <button class="toggle-width">Toggle Width Menu</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

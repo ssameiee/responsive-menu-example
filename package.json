@@ -1,0 +1,26 @@
+{
+  "name": "confirmit-menu",
+  "version": "1.0.0",
+  "description": "Confirmit Home Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Shirin Sameiee",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.19.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "not dead",
+    "Explorer 11",
+    "ExplorerMobile 11"
+  ],
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}

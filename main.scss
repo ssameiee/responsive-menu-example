@@ -1,0 +1,18 @@
+// All Prefix  such as -ms-, -moz, -o, -webkit will be handled by autoprefixer and parcel. 
+
+// Normilize browsers inconsistensies
+@import './node_modules/normalize-scss/sass/normalize';
+
+/****------ Variable----*/
+@import './scss/variables.scss';
+
+/****------ Mixin----*/
+@import './scss/mixin.scss';
+
+/****------ Global----*/
+@import './scss/global.scss';
+
+/****------ Components----*/
+@import './scss/navigation.scss';
+@import './scss/menu.scss';
+@import './scss/icons.scss';
